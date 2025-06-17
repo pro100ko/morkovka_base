@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morkovka Base - База знаний фруктово-овощной сети</title>
+    <meta name="description" content="Корпоративная база знаний для сотрудников сети фруктово-овощных магазинов">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <meta property="og:title" content="kmv-carrot-knowledge-bot" />
+    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <i class="fas fa-carrot"></i>
+            <h1>Morkovka Base</h1>
+          </div>
+          <nav class="nav">
+            <a href="#home" class="nav-link active">Главная</a>
+            <a href="#search" class="nav-link">Поиск</a>
+            <a href="#about" class="nav-link">О сети</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h2>Добро пожаловать в Morkovka Base</h2>
+            <p>Найдите всю необходимую информацию о товарах, стандартах качества и процессах работы в нашей сети магазинов.</p>
+            <div class="search-box">
+              <input type="text" placeholder="Поиск по товарам и процессам..." id="searchInput">
+              <button type="button" class="search-btn">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" id="categories">
+        <div class="container">
+          <h3>Категории товаров</h3>
+          <div class="category-grid">
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-apple-alt"></i>
+              </div>
+              <h4>Фрукты</h4>
+              <p>Свежие фрукты: яблоки, груши, цитрусовые, косточковые и другие</p>
+              <span class="product-count">25+ видов</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-carrot"></i>
+              </div>
+              <h4>Овощи</h4>
+              <p>Свежие овощи: корнеплоды, капуста, томаты, огурцы и другие</p>
+              <span class="product-count">30+ видов</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-wheat-awn"></i>
+              </div>
+              <h4>Бакалея</h4>
+              <p>Крупы, макароны, мука, сахар, специи и другие сухие товары</p>
+              <span class="product-count">50+ товаров</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-wine-bottle"></i>
+              </div>
+              <h4>Бар</h4>
+              <p>Соки, нектары, минеральная вода, чай, кофе и другие напитки</p>
+              <span class="product-count">40+ напитков</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-cake-candles"></i>
+              </div>
+              <h4>Десерты</h4>
+              <p>Сладости, выпечка, кондитерские изделия и готовые десерты</p>
+              <span class="product-count">20+ видов</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-seedling"></i>
+              </div>
+              <h4>Зелень</h4>
+              <p>Свежая зелень: укроп, петрушка, салат, шпинат и другие</p>
+              <span class="product-count">15+ видов</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-peanut-butter"></i>
+              </div>
+              <h4>Орехи и сухофрукты</h4>
+              <p>Орехи, сушеные фрукты, цукаты и смеси</p>
+              <span class="product-count">35+ товаров</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-jar"></i>
+              </div>
+              <h4>Соленья</h4>
+              <p>Консервированные овощи, маринованные продукты и заготовки</p>
+              <span class="product-count">25+ товаров</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-globe-americas"></i>
+              </div>
+              <h4>Экзотика</h4>
+              <p>Экзотические фрукты, овощи и редкие продукты</p>
+              <span class="product-count">15+ видов</span>
+            </div>
+
+            <div class="category-card">
+              <div class="category-icon">
+                <i class="fas fa-strawberry"></i>
+              </div>
+              <h4>Ягоды</h4>
+              <p>Свежие и замороженные ягоды: клубника, малина, черника и другие</p>
+              <span class="product-count">12+ видов</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+          <h3>Почему Morkovka Base?</h3>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-search"></i>
+              </div>
+              <h4>Быстрый поиск</h4>
+              <p>Находите информацию о товарах, ценах и стандартах качества мгновенно</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h4>Мобильная версия</h4>
+              <p>Доступ к базе знаний с любого устройства прямо в магазине</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <i class="fas fa-sync"></i>
+              </div>
+              <h4>Всегда актуально</h4>
+              <p>Информация о товарах и ценах обновляется в реальном времени</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Morkovka Base</h4>
+            <p>Ваш надежный источник знаний о товарах и процессах в сети фруктово-овощных магазинов.</p>
+          </div>
+          <div class="footer-section">
+            <h4>Быстрые ссылки</h4>
+            <ul>
+              <li><a href="#home">Главная</a></li>
+              <li><a href="#search">Поиск</a></li>
+              <li><a href="#about">О сети</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Контакты</h4>
+            <p>По вопросам или поддержке обращайтесь к операционному директору.</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Morkovka Base. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
